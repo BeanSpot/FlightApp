@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "hello-webapp-f2378": {
+      "hosting": {
+        "flight-app": [
+          "hello-webapp-f2378"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "hello-webapp-f2378"
+  }
+}

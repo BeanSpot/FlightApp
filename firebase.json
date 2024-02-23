@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "flight-app",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-east1"
+      }
+    }
+  ]
+}
