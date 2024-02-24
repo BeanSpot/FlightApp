@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { FlightInfoPayload } from '../models';
+import { FlightInfoPayload } from '../../models/flight-info-payload';
 
 const apiUrl = 'your-api-url-here';
 
 @Injectable({
   providedIn: 'root',
 })
-export class FlightService {
+export class ApiService {
   private headers = new HttpHeaders({
     'Content-Type': 'application/json',
     token: 'WW91IG11c3QgYmUgdGhlIGN1cmlvdXMgdHlwZS4gIEJyaW5nIHRoaXMgdXAgYXQgdGhlIGludGVydmlldyBmb3IgYm9udXMgcG9pbnRzICEh',
